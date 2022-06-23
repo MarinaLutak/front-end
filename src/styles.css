@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    font-family: "Brush Script MT";
+    padding-left: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+.logo:hover{
+    color: peru;
+}
+
+.shop-cart-button{
+    position: static;
+    font-size: 35px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 2px;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+.shop-cart-button:hover{
+    color: peru;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: lightgrey;
+    padding: 70px 60px 60px 60px;
+}
+.item{
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.count{
+    position: static;
+    margin-top: 25px;
+    color: black;
+    float: right;
+    margin-right: 200px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: peru;
+}
+.img1{
+    width: 450px;
+    padding: 10% 10% 0 10%;
+}
+.descr{
+    margin: 0;
+    padding: 0 10% 10% 10%;
+}
+
+.lab{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+.lab2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+.lab2:hover{
+    color: peru;
+}
+.price{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+.floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+.floating-button:hover {
+    background: peru;
+    box-shadow: 0 15px 20px rgba(128, 88, 29, 1);
+    color: white;
+    transform: translateY(-7px);
+}
+.toin{
+    width: 240px;
+}
+body{
+    background: url("greyfon.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+.footer{
+    background-color: white;
+    padding: 40px 30px 40px 20px;
+}
+.logoinst{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.ordimg{
+    float:left;
+    margin: 7px 20px 20px 60px;
+    width: 140px;
+}
+.ord{
+    width: 600px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.inf{
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(23, 22, 22, 1);
+}
+.delete-icon{
+    color: black;
+    float: right;
+    position: relative;
+    top: -100px;
+    right: 20px;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+.delete-icon:hover{
+    color: #d20303;
+    transform: scale(1.5);
+}
+.inford1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+.inford2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ofor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    padding: 80px 300px 40px 130px;
+}
+.l1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 80px;
+    border-bottom: thick double black;
+}
+.l2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 80px;
+}
+.l3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: thick double black;
+}
+.l4{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 80px;
+    margin-bottom: 0;
+}
+.fon1 {
+    background-image: url(./svechi-makro-fon.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 980px;
+    margin-top: -10%;
+
+}
+
+.nov{
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(23, 22, 22, 1);
+}
+.box_city{
+    margin-top: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.inputсity{
+    display:block;
+    width:100%;
+    margin: 0;
+    padding:10px;
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+}
+.inputсity:hover {
+    border: 1px solid #aaa;
+}
+.list {
+    border-radius:10px;
+    border: 1px solid #aaa;
+     display: flex;
+    flex-direction: column;
+     overflow-y: scroll;
+     width: 550px; /* Ширина блока */
+     height: 150px;
+ }
+.choose_city{
+    border-bottom: 1px gray;
+    background-color: white;
+}
